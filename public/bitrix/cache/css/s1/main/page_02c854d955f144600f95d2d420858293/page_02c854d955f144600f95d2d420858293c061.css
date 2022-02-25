@@ -1,0 +1,31 @@
+
+
+/* Start:/local/templates/main/components/bitrix/catalog.section.list/projects__content/style.css?1503499324278*/
+
+
+@media (min-width: 1600px)
+
+{
+
+    .projects__item._big, .projects__item{
+
+        height: auto;
+
+    }
+
+    .container{
+      max-width: 1272px;
+    }
+
+    .projects__item{
+      overflow:hidden;
+    }
+
+    .projects__item img{
+      height: 100%;
+      width: 100%;
+    }
+
+}
+/* End */
+/* /local/templates/main/components/bitrix/catalog.section.list/projects__content/style.css?1503499324278 */

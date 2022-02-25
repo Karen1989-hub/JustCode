@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
-<!-- Mirrored from www.imedia24.ru/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Dec 2021 17:39:39 GMT -->
-<!-- Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
-<!-- /Added by HTTrack -->
+
+<!-- Mirrored from www.imedia24.ru/contacts/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Dec 2021 17:44:08 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
 <head>
     <!-- Google Tag Manager --><!-- End Google Tag Manager -->
     <meta name="viewport" content="initial-scale=1.0, width=device-width"/>

@@ -4,48 +4,7 @@
     <div class="content"><div class="overlay overlay_phone"></div>
         <div class="overlay overlay_advice"></div>
         <div class="overlay overlay_menu"></div>
-        <header class="header">
-            <div class="header-top ">
-                <div class="container">
-                    <div class="header__wrap">
-                        <div class="header__block _burger">
-                            <div class="toggle">
-                                <div class="toggle__btn"><span class="toggle__first"></span><span class="toggle__second"></span><span class="toggle__third"></span></div>
-                                <div class="toggle__title">Меню</div>
-                            </div>
-                        </div>
-                        <div class="header__block _contact">
-                            <div class="h-phone">
-                                <div class="h-phone__icon"></div>
-                                <div class="h-phone__list">
-                                    <div class="h-phone__title section__title">Звоните!</div>
-                                    <div class="h-phone__item">
-                                        <div class="h-phone__operator">Москва :</div>
-                                        <a href="tel:
-                                                                                                     +74991135035                                                                                                  " class="h-phone__link">
-                                                    <span>
-                                                                                                                    +7 (499) 113-50-35                                                                                                            </span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="header__block _logo">
-                            <div class="h-logo"><a href="../index.html" class="h-logo__link"></a></div>
-                        </div>
-
-                        <div class="header__block _advice">
-                            <div class="h-mail"><div class="h-mail__icon"></div>
-                                <a href="mailto:info@imedia24.ru" class="h-mail__link"> <span>info@imedia24.ru</span></a>
-                            </div><a href="#advice" class="h-advice">
-                                <div class="h-advice__icon"></div>
-                                <div class="h-advice__link"><span>Получить консультацию</span></div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
+        @include('layout.header')
         <div id="advice" class="popup _advice">
             <div id="comp_d436ad9b77cc655f80f3343068620b5a"><div class="popup__form"><div class="section__title">Напишите нам</div><div class="section__pre">Оставьте свои контактные данные, и мы позвоним Вам в течении 1 часа и проконсультируем Вас по вашему вопросу</div>
                     <form class="form" name="SIMPLE_FORM_2" action="https://www.imedia24.ru/clients/" method="POST" enctype="multipart/form-data"><input type="hidden" name="bxajaxid" id="bxajaxid_d436ad9b77cc655f80f3343068620b5a_8BACKi" value="d436ad9b77cc655f80f3343068620b5a" /><input type="hidden" name="AJAX_CALL" value="Y" /><input type="hidden" name="sessid" id="sessid" value="a8bab331b699814b00127d018c97a84d" /><input type="hidden" name="WEB_FORM_ID" value="2" /><div class="form__block "><input type="text" id="feed_6" class="input" autocomplete="name" placeholder="" name="form_text_6" value=""><label for="feed_6" class="label">Имя</label></div><div class="form__block "><input type="email" id="feed_7" class="input email" data-valid="email" autocomplete="email" placeholder="" name="form_email_7" value=""><label for="feed_7" class="label">E-mail *</label></div><div class="form__block"><input type="text" id="feed_8" class="input" data-valid="phone" autocomplete="tel" placeholder="" name="form_text_8" value=""><label for="feed_8" class="label">Телефон *</label></div><div class="form__block "><textarea id="feed_9" class="input" placeholder=""  rows="1" name="form_textarea_9"></textarea><label for="feed_9" class="label">Сообщение</label></div><div class="form__block "><div class="checkbox-wrap"><label class="checkbox"><input data-valid="checkbox" type="checkbox" name="form_checkbox_SIMPLE_QUESTION_818[]" class="checkbox__hidden" checked="checked" value="90"><span class="checkbox__showed"></span><span class="checkbox__title">Я согласен на обработку личных данных в соответствии с <a href="../privacy-policy/index.html" target="_blank">политикой конфиденциальности</a></span></label></div></div><input type="hidden" name="form_text_84" value="/clients/"><input type="hidden" name="captcha_sid" value="0b6046c351618c8384a0672c54d6a879"/><div class="g-recaptcha" data-sitekey="6LdqrqkUAAAAAIWCyorcd2Lf7ICsiwBSMrZKccY3" data-size="invisible"  data-badge="bottomleft" data-callback="RecaptchaV3GoogleSubmitForm"></div><input id="captcha_feed" type="text" name="captcha_word" style="display:none" value="6Ldqr" data-valid size="30" maxlength="50" value="" placeholder="Введите символы с картинки" class="input"><br/><div class="form__btn">

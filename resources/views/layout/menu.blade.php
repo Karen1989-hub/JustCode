@@ -3,27 +3,24 @@
         <li><a href="{{route('about')}}">О компании</a></li>
         <li><a href="{{route('client')}}">Клиенты</a></li>
         <li>
-            <a href="services/index.html" class="drop">Услуги</a>
+            <a href="{{route('services')}}" class="drop">Услуги</a>
             <div class="menu__arrow"></div>
             <div class="menu__sub">
                 <ul>
                     <li>
-                        <a href="sozdanie-saitov/index.html" class="nested">Сайты под ключ</a>
+                        <a href="{{route('sozdanie-saitov')}}" class="nested">Сайты под ключ</a>
                         <div class="submenu__arrow"></div>
                         <div class="menu__sub menu__sub_nested">
                             <ul>
-                                <li><a href="korporativnyi-site/index.html">Корпоративные сайты</a></li>
-                                <li><a href="internet-magazin/index.html">Интернет-магазины</a></li>
-                                <li><a href="landing-page/index.html">Одностраничные сайты</a></li>
-                                <li><a href="bitrix/index.html">Сайты на 1С-Битрикс</a></li>
-                                <li><a href="gotovye-resheniya-1c-bitrix/index.html">Готовые решения 1С-Битрикс</a></li>
-                                <li><a href="licenses-1c-bitrix/index.html">Лицензии 1С-Битрикс</a></li>
+                                <li><a href="{{route('korporativnyi-site')}}">Корпоративные сайты</a></li>
+                                <li><a href="{{route('internet-magazin')}}">Интернет-магазины</a></li>
+                                <li><a href="{{route('landing-page')}}">Одностраничные сайты</a></li>
                                 <li><a href="design/index.html">Дизайн веб-сайтов</a></li>
                             </ul>
                         </div>
                     </li>
                     <li>
-                        <a href="mobilnye-prilozheniya/index.html" class="nested">Разработка мобильных приложений</a>
+                        <a href="{{route('mobilnye-prilozheniya')}}" class="nested">Разработка мобильных приложений</a>
                         <div class="submenu__arrow"></div>
                         <div class="menu__sub menu__sub_nested">
                             <ul>
@@ -36,19 +33,7 @@
                         </div>
                     </li>
                     <li>
-                        <a href="bitrix24/index.html" class="nested">Битрикс24 - Корпоративный портал</a>
-                        <div class="submenu__arrow"></div>
-                        <div class="menu__sub menu__sub_nested">
-                            <ul>
-                                <li><a href="vnedrenie/index.html">Внедрение Битрикс24</a></li>
-                                <li><a href="support/index.html">Техническая поддержка</a></li>
-                                <li><a href="nastroyka-crm-bitriks24/index.html">Настройка Битрикс24</a></li>
-                                <li><a href="administrirovanie/index.html">Администрирование</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="serm/index.html" class="nested">Управление репутацией</a>
+                        <a href="{{route('serm')}}" class="nested">Управление репутацией</a>
                         <div class="submenu__arrow"></div>
                         <div class="menu__sub menu__sub_nested">
                             <ul>
@@ -60,15 +45,14 @@
                             </ul>
                         </div>
                     </li>
-                    <li><a href="prodvizhenie-saitov/index.html">Продвижение сайтов</a></li>
-                    <li><a href="razrabotka-firmennogo-stilya/index.html">Разработка фирменного стиля</a></li>
-                    <li><a href="sozdanie-logotipa/index.html">Создание логотипа</a></li>
-                    <li><a href="1c-integration/index.html">Интеграция сайта с 1С</a></li>
-                    <li><a href="custom-software/index.html">Программное обеспечение</a></li>
+                    <li><a href="{{route('prodvizhenie-saitov')}}">Продвижение сайтов</a></li>
+                    <li><a href="{{route('razrabotka-firmennogo-stilya')}}">Разработка фирменного стиля</a></li>
+                    <li><a href="{{route('sozdanie-logotipa')}}">Создание логотипа</a></li>
+                    <li><a href="{{route('custom-software')}}">Программное обеспечение</a></li>
                 </ul>
             </div>
         </li>
-        <li><a href="portfolio/index.html">Проекты</a></li>
-        <li><a href="contacts/index.html">Контакты</a></li>
+        <li><a href="{{route('portfolio')}}">Проекты</a></li>
+        <li><a href="{{route('contacts')}}">Контакты</a></li>
     </ul>
 </div>
