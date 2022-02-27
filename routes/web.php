@@ -17,7 +17,10 @@ use App\Http\Controllers\services\CustomSoftwareController;
 use App\Http\Controllers\services\sozdanieSaitov\KorporativnyiSiteController;
 use App\Http\Controllers\services\sozdanieSaitov\InternetMagazinController;
 use App\Http\Controllers\services\sozdanieSaitov\LandingPageController;
-
+use App\Http\Controllers\services\SozdanieSaitov\DesignController;
+use App\Http\Controllers\services\mobilnyePrilozheniya\AndroidController;
+use App\Http\Controllers\services\mobilnyePrilozheniya\IosController;
+use App\Http\Controllers\services\mobilnyePrilozheniya\reactNativeController;
 
 
 /*
@@ -50,9 +53,12 @@ Route::get('/custom-software',[CustomSoftwareController::class,'index'])->name('
 Route::get('/korporativnyi-site',[KorporativnyiSiteController::class,'index'])->name('korporativnyi-site');
 Route::get('/internet-magazin',[InternetMagazinController::class,'index'])->name('internet-magazin');
 Route::get('/landing-page',[LandingPageController::class,'index'])->name('landing-page');
+Route::get('/design',[DesignController::class,'index'])->name('design');
 
-
-
+//mobilnye-prilozheniya
+Route::get('/androidPage',[AndroidController::class,'index'])->name('androidPage');
+Route::get('/iosPage',[IosController::class,'index'])->name('iosPage');
+Route::get('/reactNativePage',[reactNativeController::class,'index'])->name('reactNativePage');
 
 
 

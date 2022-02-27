@@ -15,7 +15,7 @@
                                 <li><a href="{{route('korporativnyi-site')}}">Корпоративные сайты</a></li>
                                 <li><a href="{{route('internet-magazin')}}">Интернет-магазины</a></li>
                                 <li><a href="{{route('landing-page')}}">Одностраничные сайты</a></li>
-                                <li><a href="design/index.html">Дизайн веб-сайтов</a></li>
+                                <li><a href="{{route('design')}}">Дизайн веб-сайтов</a></li>
                             </ul>
                         </div>
                     </li>
@@ -24,9 +24,9 @@
                         <div class="submenu__arrow"></div>
                         <div class="menu__sub menu__sub_nested">
                             <ul>
-                                <li><a href="android/index.html">Android приложения</a></li>
-                                <li><a href="ios/index.html">iOS приложения</a></li>
-                                <li><a href="react-native/index.html">React Native приложения</a></li>
+                                <li><a href="{{route('androidPage')}}">Android приложения</a></li>
+                                <li><a href="{{route('iosPage')}}">iOS приложения</a></li>
+                                <li><a href="{{route('reactNativePage')}}">React Native приложения</a></li>
                                 <li><a href="prototip/index.html">Прототипирование</a></li>
                                 <li><a href="app-design/index.html">Дизайн приложений</a></li>
                             </ul>
