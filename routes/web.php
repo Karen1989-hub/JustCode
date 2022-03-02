@@ -21,6 +21,16 @@ use App\Http\Controllers\services\SozdanieSaitov\DesignController;
 use App\Http\Controllers\services\mobilnyePrilozheniya\AndroidController;
 use App\Http\Controllers\services\mobilnyePrilozheniya\IosController;
 use App\Http\Controllers\services\mobilnyePrilozheniya\reactNativeController;
+use App\Http\Controllers\services\mobilnyePrilozheniya\PrototipController;
+use App\Http\Controllers\services\mobilnyePrilozheniya\AppDesignController;
+use App\Http\Controllers\services\serm\KompleksnoeUpravlenieReputatsieyController;
+use App\Http\Controllers\services\serm\SmrmController;
+use App\Http\Controllers\services\serm\YandexMapsController;
+use App\Http\Controllers\services\serm\YandexMarketController;
+use App\Http\Controllers\services\serm\YandexUslugiController;
+
+use App\Http\Controllers\OrderController;
+
 
 
 /*
@@ -39,6 +49,8 @@ Route::get('/clients',[ClientController::class,'index'])->name('client');
 Route::get('/portfolio',[PortfolioController::class,'index'])->name('portfolio');
 Route::get('/contacts',[ContactsController::class,'index'])->name('contacts');
 Route::get('/services',[ServicesController::class,'index'])->name('services');
+
+Route::get('/order',[OrderController::class,'index'])->name('order');
 
 //services
 Route::get('/sozdanie-saitov',[SozdanieSaitovController::class,'index'])->name('sozdanie-saitov');
@@ -59,10 +71,15 @@ Route::get('/design',[DesignController::class,'index'])->name('design');
 Route::get('/androidPage',[AndroidController::class,'index'])->name('androidPage');
 Route::get('/iosPage',[IosController::class,'index'])->name('iosPage');
 Route::get('/reactNativePage',[reactNativeController::class,'index'])->name('reactNativePage');
+Route::get('/prototip',[PrototipController::class,'index'])->name('prototip');
+Route::get('/appDesign',[AppDesignController::class,'index'])->name('appDesign');
 
-
-
-
+//serm
+Route::get('/kompleksnoeUpravlenieReputatsiey',[KompleksnoeUpravlenieReputatsieyController::class,'index'])->name('kompleksnoeUpravlenieReputatsiey');
+Route::get('/smrm',[SmrmController::class,'index'])->name('smrm');
+Route::get('/yandexMap',[YandexMapsController::class,'index'])->name('yandexMap');
+Route::get('/yandexMarket',[YandexMarketController::class,'index'])->name('yandexMarket');
+Route::get('/yandexUslugi',[YandexUslugiController::class,'index'])->name('yandexUslugi');
 
 
 

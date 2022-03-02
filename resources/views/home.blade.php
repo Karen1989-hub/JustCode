@@ -91,29 +91,11 @@
                                 Корпоративные сайты. E-commerce проекты. Интернет-порталы.
                             </div>
                             <div class="main_slider__link">
-                                <a href="order/index.html" class="btn btn-green">Заказать услугу</a>
+                                <a href="{{route('order')}}" class="btn btn-green">Заказать услугу</a>
                             </div>
                         </div>
                     </div>
-                    <div class="slider__item" id="bx_3218110189_932">
-                        <div style="background-image: url('{{asset('images/e9b/imedia_slide_01_v4.jpg')}}');"
-                             class="slider__img"></div>
-                        <div class="slider__info">
-                            <div class="main_slider__icon">
 
-                                {{--                                <img src="{{asset('images/26e/bitrix_white_icon_1_.png')}}" alt="Разработка на 1С-Битрикс">--}}
-
-                            </div>
-                            <div class="main_slider__title">Веб-разработка на <br/>платформе 1С-Битрикс</div>
-                            <div class="main_slider__text">«Битрикс24» | «1С-Битрикс: Управление сайтом»<br>
-                                10 профессиональных bitrix разработчиков. 200+ проектов.
-                            </div>
-                            <div class="main_slider__link">
-                                <a href="bitrix/index.html" class="btn btn-green">Подробнее</a>
-                            </div>
-                            c
-                        </div>
-                    </div>
                     <div class="slider__item" id="bx_3218110189_930">
                         <div style="background-image: url('{{asset('images/786/imedia_slide_01_v2.jpg')}}');"
                              class="slider__img"></div>
@@ -128,7 +110,7 @@
                                 Службы такси. Интернет-магазины. Фитнес приложения.
                             </div>
                             <div class="main_slider__link">
-                                <a href="mobilnye-prilozheniya/index.html" class="btn btn-green">Подробнее</a>
+                                <a href="{{route('order')}}" class="btn btn-green">Подробнее</a>
                             </div>
                         </div>
                     </div>

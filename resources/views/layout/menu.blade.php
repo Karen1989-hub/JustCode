@@ -27,8 +27,8 @@
                                 <li><a href="{{route('androidPage')}}">Android приложения</a></li>
                                 <li><a href="{{route('iosPage')}}">iOS приложения</a></li>
                                 <li><a href="{{route('reactNativePage')}}">React Native приложения</a></li>
-                                <li><a href="prototip/index.html">Прототипирование</a></li>
-                                <li><a href="app-design/index.html">Дизайн приложений</a></li>
+                                <li><a href="{{route('prototip')}}">Прототипирование</a></li>
+                                <li><a href="{{route('appDesign')}}">Дизайн приложений</a></li>
                             </ul>
                         </div>
                     </li>
@@ -37,11 +37,11 @@
                         <div class="submenu__arrow"></div>
                         <div class="menu__sub menu__sub_nested">
                             <ul>
-                                <li><a href="kompleksnoe-upravlenie-reputatsiey/index.html">Комплексное управление репутацией</a></li>
-                                <li><a href="smrm/index.html">Репутация в социальных сетях</a></li>
-                                <li><a href="yandex-maps/index.html">Отзывы на Яндекс.Картах</a></li>
-                                <li><a href="yandex-market/index.html">Отзывы на Яндекс.Маркет</a></li>
-                                <li><a href="yandex-uslugi/index.html">Отзывы на Яндекс.Услуги</a></li>
+                                <li><a href="{{route('kompleksnoeUpravlenieReputatsiey')}}">Комплексное управление репутацией</a></li>
+                                <li><a href="{{route('smrm')}}">Репутация в социальных сетях</a></li>
+                                <li><a href="{{route('yandexMap')}}">Отзывы на Яндекс.Картах</a></li>
+                                <li><a href="{{route('yandexMarket')}}">Отзывы на Яндекс.Маркет</a></li>
+                                <li><a href="{{route('yandexUslugi')}}">Отзывы на Яндекс.Услуги</a></li>
                             </ul>
                         </div>
                     </li>
